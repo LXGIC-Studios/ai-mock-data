@@ -10,10 +10,20 @@
     "build": "tsc"
   },
   "keywords": [
+    "ai",
+    "openai",
+    "gpt",
     "mock-data",
     "faker",
     "test-data",
-    "ai"
+    "fixtures",
+    "seed",
+    "json",
+    "developer-tools",
+    "cli",
+    "testing",
+    "typescript",
+    "nodejs"
   ],
   "license": "MIT",
   "dependencies": {

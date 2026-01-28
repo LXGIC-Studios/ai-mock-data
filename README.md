@@ -1,5 +1,11 @@
 # ai-mock-data
 
+[![npm version](https://img.shields.io/npm/v/ai-mock-data.svg)](https://www.npmjs.com/package/ai-mock-data)
+[![npm downloads](https://img.shields.io/npm/dm/ai-mock-data.svg)](https://www.npmjs.com/package/ai-mock-data)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+AI-powered mock data generator. Create realistic test fixtures without writing faker configs.
+
 Need test data that doesn't look like garbage? Describe what you want and get back realistic mock data. Way better than writing faker.js configs by hand.
 
 ## Install
