@@ -1,5 +1,5 @@
 {
-  "name": "ai-mock-data",
+  "name": "@lxgicstudios/ai-mock-data",
   "version": "1.0.0",
   "description": "Generate realistic mock data from types, schemas, or plain descriptions",
   "main": "dist/index.js",
