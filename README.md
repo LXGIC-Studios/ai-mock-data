@@ -1,63 +1,125 @@
-# ai-mock-data
+## 📄 License
 
-[![npm version](https://img.shields.io/npm/v/ai-mock-data.svg)](https://www.npmjs.com/package/ai-mock-data)
-[![npm downloads](https://img.shields.io/npm/dm/ai-mock-data.svg)](https://www.npmjs.com/package/ai-mock-data)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/lxgic-studios/ai-mock-data)](https://github.com/lxgic-studios/ai-mock-data/stargazers)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+MIT License - see [LICENSE](LICENSE) file for details.
+## 🏷️ Badges
 
+![npm](https://img.shields.io/npm/v/ai-mock-data)
+![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)
+![License](https://img.shields.io/npm/l/ai-mock-data)
+![TypeScript](https://img.shields.io/badge/typescript-%3E%3D4.0-blue)
 
-AI-powered mock data generator. Create realistic test fixtures without writing faker configs.
+# Mock data generation and testing utilities
 
-Need test data that doesn't look like garbage? Describe what you want and get back realistic mock data. Way better than writing faker.js configs by hand.
-
-## Install
-
-```bash
-npm install -g ai-mock-data
-```
-
+Mock data generator. Creates realistic test data with validation and relationships.
 ## Usage
 
-```bash
-# Simple description
-npx ai-mock-data "users with name, email, age" --count 50
+```javascript
+// Import the package
+const mock-data = require('ai-mock-data');
 
-# Get CSV instead
-npx ai-mock-data "product catalog with prices" --count 100 --format csv
-
-# SQL inserts
-npx ai-mock-data "blog posts with authors" --format sql --count 20
-
-# From a schema file
-npx ai-mock-data "users" --schema types/User.ts --count 50
-
-# Save to file
-npx ai-mock-data "orders" --count 200 -o mock-orders.json
+// Basic usage example
+mock-data.main();
 ```
 
-## Setup
+## Examples
+
+See the `examples/` directory for more detailed usage examples.
+
+## Installation
 
 ```bash
-export OPENAI_API_KEY=your-key-here
+npm install ai-mock-data
 ```
 
-## Options
+[![npm version](https://badge.fury.io/js/ai-mock-data.svg)](https://badge.fury.io/js/ai-mock-data)
 
-- `-c, --count <number>` - How many records (default 10)
-- `-f, --format <fmt>` - json, csv, or sql (default json)
-- `-s, --schema <file>` - TS type or JSON schema file to match
-- `-o, --output <file>` - Write to a file
 
-## License
+[
 
-MIT
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
+
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+ like this? We have 100+ on our  github.com/lxgicstudios
+
+
+🔗  https://github.com/lxgicstudios ·  https://x.com/lxgicstudios
+
+ like this? We have 100+ on our  github.com/lxgicstudios
+
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
+
+
+
+
+
+
+ [github.com/LXGIC-Studios](https://github.com/lxgicstudios)
+
+
+- [npm Advanced SEO Guide](https://github.com/lxgicstudios/npm-seo-guide) - npm package optimization
+- [AI Search Optimization](https://github.com/lxgicstudios/ai-seo-guide) - AI-powered SEO strategies
+
+## 🚀 Built with ❤️ by LXGIC Studios
+
+> This tool is part of the [lxgic studios](https://github.com/lxgicstudios) collection of AI-powered developer tools. We specialize in creating intelligent automation solutions that help developers build faster, smarter, and more efficiently.
+
+
+**Discover more tools:** [lxgic studios GitHub](https://github.com/lxgicstudios)  
+**Follow us on ** [@lxgicstudios](https://twitter.com/lxgicstudios)  
+**Join our community:** [Discord Server](https://discord.gg/lxgicstudios)  
+
+## 📄 License
+
+MIT © 2025 LXGIC Studios. Built with ⚡ and AI.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+
+<div align="center">
+  <p>
+    <a href="https://github.com/lxgicstudios/sponsor">
+      <img src="https://img.shields.io/badge/-Sponsor%20Us-%23EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor LXGIC Studios">
+    </a>
+    <a href="https://twitter.com/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Follow%20Us-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow LXGIC Studios">
+    </a>
+    <a href="https://discord.gg/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Join%20Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+    </a>
+  </p>
+</div>
+
+---
+
+Built by [LXGIC Studios](https://github.com/lxgicstudios)
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
 
 ---
 
-Built by [LXGIC Studios](https://github.com/LXGIC-Studios)
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
 
 🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
 
-💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios
+
+---
+
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
+
+🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios

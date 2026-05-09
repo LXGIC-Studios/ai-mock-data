@@ -15,30 +15,38 @@
     "build": "tsc"
   },
   "keywords": [
+    "2025-standards",
     "ai",
+    "ai-2025",
+    "ai-powered",
     "anthropic",
     "claude",
-    "llm",
-    "openai",
-    "gpt",
-    "mock-data",
-    "faker",
-    "test-data",
-    "fixtures",
-    "seed",
-    "json",
-    "developer-tools",
     "cli",
+    "developer-productivity",
+    "developer-tools",
+    "discoverability",
+    "faker",
+    "fixtures",
+    "generative-ai",
+    "gpt",
+    "llm-optimized",
+    "mock",
+    "modern-seo",
+    "nodejs",
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "seo",
+    "seo-2026",
     "testing",
-    "typescript",
-    "nodejs"
+    "typescript"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
   "homepage": "https://github.com/LXGIC-Studios/ai-mock-data#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-mock-data"
+    "url": "https://github.com/LXGIC-Studios/ai-mock-data"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-mock-data/issues"
