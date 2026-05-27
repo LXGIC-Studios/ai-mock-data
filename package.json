@@ -1,74 +1,68 @@
 {
-  "name": "@lxgicstudios/ai-mock-data",
-  "version": "1.0.0",
-  "description": "Generate realistic mock data from types, schemas, or plain descriptions",
-  "main": "dist/index.js",
-  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-mock-data": "dist/cli.js"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [
-    "2025-standards",
-    "ai",
-    "ai-2025",
-    "ai-powered",
-    "anthropic",
-    "claude",
-    "cli",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
-    "faker",
-    "fixtures",
-    "generative-ai",
-    "gpt",
-    "llm-optimized",
-    "mock",
-    "modern-seo",
-    "nodejs",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "seo",
-    "seo-2026",
-    "testing",
-    "typescript"
-  ],
-  "author": "LXGIC Studios",
-  "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-mock-data#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-mock-data"
-  },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-mock-data/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/LXGIC-Studios"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "url": "https://github.com/lxgicstudios/ai-mock-data/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
     "openai": "^4.73.0",
     "ora": "^5.4.1"
   },
+  "description": "Generate realistic mock data from types, schemas, or plain descriptions",
   "devDependencies": {
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-mock-data#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai-optimized",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@lxgicstudios/ai-mock-data",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-mock-data"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
 }
