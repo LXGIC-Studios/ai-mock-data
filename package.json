@@ -46,10 +46,8 @@
     "fixtures",
     "gpt",
     "mock-data",
-    "nodejs",
     "npx",
-    "typescript",
-    "javascript"
+    "typescript"
   ],
   "license": "MIT",
   "main": "dist/index.js",
